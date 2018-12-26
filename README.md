@@ -1,10 +1,9 @@
 # FilmyQuote-AlexaSkillKit
 
 
-## Setting up Your Alexa Skill in the Developer Console
+## Setting up FilmyQuote Alexa Skill in the Developer Console
 
 1.  **Go to the [Alexa Developer Console](http://developer.amazon.com/alexa?&sc_category=Owned&sc_channel=RD&sc_campaign=Evangelism2018&sc_publisher=github&sc_content=Survey&sc_detail=quiz-game-python-V2_GUI-1&sc_funnel=Convert&sc_country=WW&sc_medium=Owned_RD_Evangelism2018_github_Survey_quiz-game-python-V2_GUI-1_Convert_WW_beginnersdevs&sc_segment=beginnersdevs).  In the top-right corner of the screen, click the "Sign In" button.**
-(If you don't already have an account, you will be able to create a new one for free.)
 
 2.  Once you have signed in, select the **Developer Console** link and then **Alexa Skills Kit**.
 
@@ -33,7 +32,7 @@
      *  **Did you accidentally add any characters to the Interaction Model?**
 
 
-## Setting up your Lambda Function in Python using Amazon Web Services
+## Setting up FilmyQuote Lambda Function in Python using Amazon Web Services
 
 Now, we will be creating a Lambda function using [Amazon Web Services](http://aws.amazon.com). You can read more about [Lambda function](http://aws.amazon.com/lambda), but for the purposes of this guide, what you need to know is that Lambda is where our code lives.  When a user asks Alexa to use our skill, it is our Lambda function that interprets the appropriate interaction, and provides the conversation back to the user.
 
@@ -93,7 +92,7 @@ Now, we will be creating a Lambda function using [Amazon Web Services](http://aw
 8. **As a final step, copy the ARN value from the top right corner of the screen.** You will need this value in the next step of this setup.
 
 
-## Connecting Your Voice User Interface To Your Lambda Function
+## Connecting Voice User Interface To FilmyQuote Lambda Function
 
 In the first step, we created a voice user interface for the intents and utterances we expect from our users.  In the second step, we created a Lambda function that contains all of our logic for the skill.  In this step, we need to connect those two pieces together.
 
@@ -109,6 +108,7 @@ In the first step, we created a voice user interface for the intents and utteran
 
 
 So far, you have created a *Voice User Interface* and a *Lambda function*, and connected the two together.  Your skill is now ready to test.
+
 
 ## Testing Your Alexa Skill
 
