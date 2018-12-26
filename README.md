@@ -1,5 +1,9 @@
 # FilmyQuote-AlexaSkillKit
 
+Alexa Skill Kit for FilmyQuote for getting random bollywood dialogue. Ask Alexa to tell you a famous Bollywood dialogue. Get dialogues by genres, movie names and actors.
+
+To enable it click [here](https://www.amazon.in/Shiv-Prasad-Filmy-Quote/dp/B07M98M68T/ref=sr_1_1?ie=UTF8&qid=1545815721&sr=8-1&keywords=filmy+quote)
+
 
 ## Setting up FilmyQuote Alexa Skill in the Developer Console
 
